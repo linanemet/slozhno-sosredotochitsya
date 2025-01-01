@@ -1,1 +1,1 @@
-Репозиторий проекта: https://github.com/linanemet/slozhno-sosredotochitsya
+Репозиторий проекта: https://github.com/linanemet/slozhno-sosredotochitsya-fd
