@@ -8,6 +8,7 @@
   --text-color: var(--color-pink-2, #f1b2ce);
   --brand-color: var(--color-purple-1, #db00ff);
   --secondary-color: var(--color-purple-2, #ff0070);
+  --secondary-color-40: var(--color-purple-3-40, #FF007066);
   --accent-color: var(--color-purple-2, #ff0070);
   --highlight-color: var(--color-black-1, #000028);
 

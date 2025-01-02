@@ -10,7 +10,7 @@
   --brand-color: var(--color-pink-3, #ffc2e6);
   --highlight-color: var(--color-black-2, #353430);
   --secondary-color: var(--color-black-2, #353430);
-
+  --secondary-color-40: var(--color-black-3-40, #32312D66);
   --page-background-color: var(--color-pink-1, #fff1f7);
   --page-background-image: url("../images/cover-image-light.png");
 
@@ -24,7 +24,7 @@
     --brand-color: var(--color-pink-3, #ffc2e6);
     --highlight-color: var(--color-black-2, #353430);
     --secondary-color: var(--color-black-2, #353430);
-
+    --secondary-color-40: var(--color-black-3-40, #32312D66);
     --page-background-color: var(--color-pink-1, #fff1f7);
     --page-background-image: url("../images/cover-image-light.png");
 

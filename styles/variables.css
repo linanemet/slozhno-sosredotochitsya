@@ -11,18 +11,21 @@
 
   --color-purple-1: #db00ff;
   --color-purple-2: #ff0070;
+  --color-purple-3-40: #FF007066;
 
   --color-black-1: #000028;
   --color-black-2: #353430;
+  --color-black-3-40: #32312D66;
 
   --text-color: var(--color-pink-2, #f1b2ce);
   --brand-color: var(--color-purple-1, #db00ff);
   --secondary-color: var(--color-purple-2, #ff0070);
+  --secondary-color-40: var(--color-black-3-40, #32312D66);
   --accent-color: var(--color-purple-2, #ff0070);
   --highlight-color: var(--color-black-1, #000028);
 
   --page-font-family: "IBM Plex mono", monospace;
-  --page-background-image: url("../images/cover-image.png");
+  --page-background-image: url("../images/cover-image-dark.png");
   --page-background-color: var(--color-black-1, #000028);
 
   --rec-decor-visibility: visible;

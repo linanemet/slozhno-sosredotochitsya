@@ -39,7 +39,7 @@
 }
 
 .link:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid currentColor;
 }
 
 .link:focus {
@@ -48,6 +48,21 @@
 
 .link:focus-visible {
   outline: 1px solid currentColor;
+}
+
+
+
+.header__theme-menu-decor:hover {
+  text-decoration: none;
+  outline: 1px solid var(--secondary-color-40, #FF007066);
+}
+
+.header__theme-menu-decor:focus {
+  outline: 0;
+}
+
+.header__theme-menu-decor:focus-visible {
+  outline: 1px solid var(--secondary-color-40);
 }
 
 /* Блок HEADER*/
@@ -59,7 +74,8 @@
 .cover {
   display: grid;
   padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
-  min-block-size: 100vh;
+  min-block-size: 668px;
+  block-size: 100vh;
 }
 
 .decorated-zone {
@@ -177,11 +193,11 @@
   gap: 10px;
 }
 
-.section-second__title {
+.section-what__title {
   margin-block-end: 20px;
 }
 
-.section-third__title {
+.section-how__title {
   margin-block-end: 20px;
 }
 
@@ -255,11 +271,11 @@
     grid-template-columns: clamp(236px, calc(100% / 3.25), 315px) 1fr;
   }
 
-  .section-second__articles-list {
+  .section-what__articles-list {
     grid-column-start: span 2;
   }
 
-  .section-third__articles-list {
+  .section-how__articles-list {
     grid-column-start: 2;
   }
 
@@ -302,7 +318,7 @@
     column-gap: 30px;
   }
 
-  .section-second__articles-list {
+  .section-what__articles-list {
     grid-template-columns: repeat(3, 1fr);
   }
 
