@@ -47,7 +47,7 @@
 }
 
 .link:focus-visible {
-  outline: 1px solid currentColor;
+  outline: 1px solid var(--text-color, #f1b2ce);
 }
 
 
@@ -62,7 +62,7 @@
 }
 
 .header__theme-menu-decor:focus-visible {
-  outline: 1px solid var(--secondary-color-40);
+  outline: 1px solid var(--secondary-color-40, #FF007066);
 }
 
 /* Блок HEADER*/
@@ -94,15 +94,15 @@
 .decorated-zone::before {
   border-inline-end: 1px solid var(--secondary-color, #ff0070);
   border-block-start: 1px solid var(--secondary-color, #ff0070);
-  inset-inline-end: clamp(10px, 0.0286rem + 2.5445vw, 20px);
-  inset-block-start: clamp(10px, 0.0286rem + 2.5445vw, 20px);
+  inset-inline-end: 10px;
+  inset-block-start: 10px;
 }
 
 .decorated-zone::after {
   border-inline-start: 1px solid var(--secondary-color, #ff0070);
   border-block-end: 1px solid var(--secondary-color, #ff0070);
-  inset-inline-start: clamp(10px, 0.0286rem + 2.5445vw, 20px);
-  inset-block-end: clamp(10px, 0.0286rem + 2.5445vw, 20px);
+  inset-inline-start: 10px;
+  inset-block-end: 10px;
 }
 
 .rec-decor {
@@ -112,7 +112,7 @@
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  inset-inline-end: 20px;
+  inset-inline-end: 19px;
   inset-block-start: 10px;
 }
 
@@ -251,6 +251,16 @@
   .header__title {
     justify-self: end;
     inline-size: clamp(364px, calc(100% / 2 - 10px), 491px);
+  }
+
+  .decorated-zone::before {
+    inset-inline-end: clamp(10px, 0.0286rem + 2.5445vw, 20px);
+    inset-block-start: clamp(10px, 0.0286rem + 2.5445vw, 20px);
+  }
+
+  .decorated-zone::after {
+    inset-inline-start: clamp(10px, 0.0286rem + 2.5445vw, 20px);
+    inset-block-end: clamp(10px, 0.0286rem + 2.5445vw, 20px);
   }
 
   .main {
